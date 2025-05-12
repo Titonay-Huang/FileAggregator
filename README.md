@@ -2,8 +2,6 @@
 
 **一键收集你的代码宝藏！** 让散落各处的文件乖乖排好队，变成一份精美的文档报告~
 
-![魔法师插图概念](https://via.placeholder.com/800x400.png/0077B5/FFFFFF?text=File+Aggregator+Wizard)
-
 ## 🎩 这个工具能做什么？
 
 - **文件大搜罗**：像魔法一样从各个角落找出你要的文件
@@ -22,11 +20,8 @@ save_as_markdown(report)  # 哇！真简单！
 
 ### 安装咒语
 
-```bash
-pip install file-aggregator-wizard
-# 或者
-git clone https://github.com/yourusername/file-aggregator-wizard.git
-cd file-aggregator-wizard
+git clone https://github.com/Titonay-Huang/FileAggregator.git
+cd FileAggregator
 ```
 
 ### 第一次施法
