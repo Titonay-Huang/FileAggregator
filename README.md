@@ -20,6 +20,7 @@ save_as_markdown(report)  # 哇！真简单！
 
 ### 安装咒语
 
+```
 git clone https://github.com/Titonay-Huang/FileAggregator.git
 cd FileAggregator
 ```
