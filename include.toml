@@ -1,0 +1,10 @@
+#include = [
+#    "*.txt",        # 匹配所有txt文件
+#    "subdir/*.md",  # 匹配subdir目录下的所有md文件
+#    "README",       # 匹配名为README的文件
+#    "docs/"        # 匹配docs目录下的所有文件
+#]
+
+include = [
+    "*"
+]
