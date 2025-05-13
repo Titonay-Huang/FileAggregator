@@ -1,10 +1,30 @@
-#include = [
-#    "*.txt",        # 匹配所有txt文件
-#    "subdir/*.md",  # 匹配subdir目录下的所有md文件
-#    "README",       # 匹配名为README的文件
-#    "docs/"        # 匹配docs目录下的所有文件
-#]
+# ========================
+# 文件聚合工具配置文件
+# 默认所有功能关闭
+# ========================
 
-include = [
-    "*"
-]
+[include]
+# 文件匹配模式（支持通配符）
+# "src/**/*.js"  - 匹配src目录所有js文件
+# "docs/*.md"    - 匹配docs目录的md文件
+patterns = ["*.py"]
+
+[exclude]
+# 需要排除的文件模式
+# "*.bak"       - 所有备份文件
+# "node_modules/" - 排除目录
+patterns = ["test_*"]
+
+[output]
+filename = "result.txt"    # 输出文件名（默认：result.txt）
+separator = "\n\n"    # 文件分隔符（默认空两行）
+
+[features]
+# 功能开关配置
+enable_emojis = true    # 启用表情符号（默认关闭）
+show_watermark = false    # 显示水印（默认关闭）
+
+[filters]
+# 过滤条件配置
+size_limit = 1024    # 文件大小限制（单位KB，0=无限制）
+
