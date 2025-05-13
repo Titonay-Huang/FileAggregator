@@ -63,7 +63,6 @@ patterns = [
 [output]
 filename = "魔法报告.txt"  # 报告文件名
 separator = "\n\n✨✨✨\n\n"  # 文件分隔魔法
-format = "text"          # 支持text/markdown
 
 [features]
 enable_emojis = true     # 启用可爱表情
