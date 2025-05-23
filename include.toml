@@ -7,7 +7,10 @@
 # 文件匹配模式（支持通配符）
 # "src/**/*.js"  - 匹配src目录所有js文件
 # "docs/*.md"    - 匹配docs目录的md文件
-patterns = ["*.py"]
+patterns = [
+    "*.java",
+    "*.css"
+]
 
 [exclude]
 # 需要排除的文件模式
@@ -18,6 +21,7 @@ patterns = ["test_*"]
 [output]
 filename = "result.txt"    # 输出文件名（默认：result.txt）
 separator = "\n\n"    # 文件分隔符（默认空两行）
+format = "text"
 
 [features]
 # 功能开关配置
