@@ -22,7 +22,8 @@ aggregator.process_project("你的魔法城堡")  # 咻~一键收集！
 ```bash
 git clone https://github.com/Titonay-Huang/FileAggregator.git
 cd FileAggregator
-pip install -e .  # 安装魔法依赖
+python -m venv myvenv
+pip install -r requirements.txt  # 安装魔法依赖
 ```
 
 ### 第一次施展收集术
